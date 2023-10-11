@@ -1,0 +1,502 @@
+/* @font-face {
+  font-family: Roboto;
+  src: url(../fonts/Roboto-Regular.ttf);
+} */
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  font-style: normal;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+.container {
+  max-width: 1350px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* ====================HEADER==================== */
+
+.header {
+}
+
+.header > .container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.header-top {
+  background-color: #4b50fa;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.header-top-text {
+  color: #fff;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.header-bottom-container {
+  background-color: #f5f5f5;
+}
+
+.header-bottom {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.header-nav {
+}
+.header-list {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.header-item {
+}
+
+.header-item-link {
+  color: #141414;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.header-logo-link {
+  margin-left: 321px;
+}
+.header-logo-img {
+}
+
+.header-login-link {
+  color: #141414;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.6;
+  margin-left: auto;
+}
+
+.header-btn {
+  color: #141414;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  padding: 13px 41px;
+  background-color: transparent;
+  border-radius: 24px;
+  border: 1px solid #141414;
+  margin-left: 40px;
+}
+
+.header-buy-link {
+  margin-left: 32px;
+}
+
+/* ============================================== */
+
+/* ====================HERO==================== */
+
+.hero {
+  background: url(../images/speaker-min.png),
+    radial-gradient(
+      326.34% 128.88% at 100% 100%,
+      #f5f5f5 0%,
+      #4b50fa 52.08%,
+      #f5f5f5 100%
+    );
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 237px 589px, cover;
+  padding-top: 79px;
+  padding-bottom: 103px;
+}
+
+.hero > .container {
+  display: flex;
+  gap: 164px;
+}
+
+.main-title {
+  color: #000;
+  font-size: 155px;
+  font-weight: 900;
+  line-height: 1.06;
+  text-transform: uppercase;
+  width: 669px;
+}
+
+.hero-text-wrapper {
+  padding-top: 192px;
+  padding-bottom: 41px;
+}
+
+.hero-text {
+  color: #000;
+  font-size: 32px;
+  line-height: 1.25;
+  width: 424px;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.hero-btn {
+  border-radius: 24px;
+  background-color: #141414;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  padding: 12px 34px;
+  display: block;
+  margin-bottom: 24px;
+}
+
+.hero-link {
+  color: #141414;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  display: block;
+}
+
+/* ============================================ */
+
+/* ====================SEE==================== */
+
+.see {
+  background-color: #f5f5f5;
+  padding-top: 636px;
+  padding-bottom: 284px;
+  background-image: url(../images/background-circle-min.png),
+    url(../images/speaker-min.png),
+    url(../images/RA_OwlLabs_WidescreenGIF_panning_v1-1-min.jpg);
+  background-repeat: no-repeat;
+  background-size: 505px 505px, 237px 589px, 1320px 420px;
+  background-position: top 300px right 99px, top 406px right 233px,
+    top 129px center;
+}
+
+.see > .container {
+  padding-left: 99px;
+}
+
+.see-title {
+  color: #000;
+  font-size: 83px;
+  font-weight: 900;
+  line-height: 1.26;
+  text-transform: uppercase;
+  margin-bottom: 23px;
+}
+
+.see-text {
+  color: #000;
+  font-size: 32px;
+  line-height: 1.25;
+  width: 466px;
+  margin-bottom: 20px;
+}
+
+.see-btn {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  border-radius: 24px;
+  background-color: #4b50fa;
+  padding: 12px 40px;
+  display: block;
+}
+
+/* =========================================== */
+
+/* ====================FOCUS==================== */
+
+.focus {
+  padding-top: 107px;
+  padding-bottom: 338px;
+  background-color: #ffb480;
+  background-image: url(../images/background-vector-min.png);
+  background-repeat: no-repeat;
+  background-size: 1439px 970px;
+  background-position: center;
+}
+
+.focus > .container {
+  padding-left: 101px;
+  display: flex;
+}
+
+.focus-text-wrapper {
+  margin-right: 112px;
+}
+
+.focus-title {
+  color: #141414;
+  font-size: 85px;
+  font-weight: 900;
+  line-height: 1.23;
+  text-transform: uppercase;
+  width: 420px;
+  margin-bottom: 43px;
+}
+
+.focus-text {
+  color: #141414;
+  font-size: 32px;
+  line-height: 1.25;
+  width: 406px;
+  margin-bottom: 40px;
+}
+
+.focus-btn {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  border-radius: 24px;
+  background: #4b50fa;
+  padding: 12px 40px;
+  display: block;
+}
+
+.focus-img-wrapper {
+  display: flex;
+  gap: 37px;
+  transform: translateY(21px);
+}
+
+.focus-img-man {
+}
+.focus-img-woman {
+}
+
+/* ============================================= */
+
+/* ====================CONNECT==================== */
+
+.connect {
+  padding-top: 56px;
+  padding-bottom: 352px;
+  background-image: url(../images/table-min.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.connect > .container {
+  padding-left: 95px;
+}
+
+.connect-title {
+  color: #000;
+  font-size: 83px;
+  font-weight: 900;
+  line-height: 1.26;
+  text-transform: uppercase;
+  width: 587px;
+  margin-bottom: 14px;
+}
+
+.connect-text {
+  color: #000;
+  font-size: 32px;
+  line-height: 1.25;
+  margin-bottom: 40px;
+  width: 395px;
+}
+
+.connect-btn {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  border-radius: 24px;
+  background: #4b50fa;
+  padding: 12px 56px;
+  display: block;
+}
+
+/* =============================================== */
+
+/* ====================INCREDIBLE==================== */
+
+.incredible {
+  background-color: #0a3232;
+  padding-top: 141px;
+  padding-bottom: 128px;
+}
+
+.incredible > .container {
+  padding-left: 95px;
+  display: flex;
+}
+
+.incredible-text-wrapper {
+  width: 552px;
+  height: 452px;
+  margin-right: 96px;
+  transform: translateY(39px);
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.incredible-title {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1.13;
+  width: 453px;
+  margin-bottom: 28px;
+}
+
+.incredible-text {
+  color: #fff;
+  font-size: 20px;
+  line-height: 1.4;
+  width: 330px;
+  margin-bottom: 38px;
+}
+
+.incredible-btn {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  padding: 13px 40px;
+  border-radius: 24px;
+  border: 1px solid #f5f5f5;
+  background-color: transparent;
+  display: block;
+}
+
+.incredible-img {
+}
+
+/* ================================================== */
+
+/* ====================POSSIBILITY==================== */
+
+.possibility {
+  padding-top: 127px;
+  padding-bottom: 182px;
+}
+
+.possibility > .container {
+  padding-left: 75px;
+}
+
+.possibility-title {
+  color: #141414;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1.17;
+  width: 524px;
+  margin-bottom: 118px;
+  transform: translateX(24px);
+}
+
+.possibility-list {
+  display: flex;
+  gap: 18px;
+}
+
+.possibility-item {
+  width: calc((100% - 54px) / 4);
+}
+
+.possibility-item-container {
+  padding: 25px 25px 28px 25px;
+  border: 3px solid #000;
+  height: 386px;
+  margin-bottom: 26px;
+}
+
+.business {
+  background-color: #a4c3d8;
+}
+
+.education {
+  background-color: #d9a603;
+}
+
+.healthcare {
+  background-color: #ffb480;
+}
+
+.legal {
+  background-color: #b3b97d;
+}
+
+.possibility-subtitle {
+  color: #141414;
+  font-size: 31px;
+  font-weight: 400;
+  line-height: 1.29;
+  margin-bottom: 11px;
+}
+
+.possibility-subtext {
+  color: #141414;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.business-text {
+  width: 199px;
+}
+
+.education-text {
+  width: 228px;
+}
+
+.healthcare-text {
+  width: 224px;
+}
+
+.possibility-reviews-wrapper {
+  padding-left: 8px;
+}
+
+.possibility-reviews-text {
+}
+.possibility-person-text {
+}
+
+/* =================================================== */
